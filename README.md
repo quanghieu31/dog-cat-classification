@@ -60,3 +60,4 @@ Structure           |  Configurations
     - mini-batches to avoid vanishing gradient
     - dropout regularization in training
 
+I enjoy anything related to animals, dogs and cats especially.
