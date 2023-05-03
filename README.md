@@ -1,4 +1,4 @@
-## Practice coding a machine learning problem
+## Practice a machine learning modeling with Adam optimizer
 
 - Dog/cat classification (data from [kaggle](https://www.kaggle.com/c/dogs-vs-cats))
 - Algorithm: Convulational neural network, VGG-16
