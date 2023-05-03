@@ -37,3 +37,14 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 ```
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(2).png)
+
+free notes:
+
+- convolutional layers (inside units are called channels)
+- fully connected layers
+- activation map
+- stride = a parameter of filter
+- training
+    - optimizing logit regression
+    - mini-batches to avoid vanishing gradient
+    - dropout regularization in training
