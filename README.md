@@ -2,7 +2,9 @@
 
 - Dog/cat classification
 - Algorithm: Convulational neural network, VGG-16
-- Optimizer: Adam
+- Optimizer: Adam 
+	- A high-dimension, first-order SGD → help with noisy objectives like dropout regularization (during training, remove random elements during each epoch to improve learning and increase accuracy)
+	- Adam = AdaGrad + RNSProp
 
 ### VGG
 
@@ -38,7 +40,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(2).png)
 
-free notes:
+### free notes:
 
 - convolutional layers (inside units are called channels)
 - fully connected layers
@@ -48,3 +50,6 @@ free notes:
     - optimizing logit regression
     - mini-batches to avoid vanishing gradient
     - dropout regularization in training
+
+## Doggo vs catto
+
