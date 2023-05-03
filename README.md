@@ -53,6 +53,6 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 ## Doggo vs catto
 
-Solarized dark             |  Solarized Ocean
+Learning curve evaluation            |  Model prediction on test data
 :-------------------------:|:-------------------------:
-![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/learning_curve.png)  |  ![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/test_data.png)
+![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/learning_curve.png)  |  ![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/test.jpg)
