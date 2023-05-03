@@ -35,3 +35,4 @@ from tensorflow.keras.layers import MaxPooling2D  # one of the consistent config
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 ```
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)
