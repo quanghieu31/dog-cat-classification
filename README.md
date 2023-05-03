@@ -6,6 +6,12 @@
 	- A high-dimension, first-order SGD → help with noisy objectives like dropout regularization (during training, remove random elements during each epoch to improve learning and increase accuracy)
 	- Adam = AdaGrad + RNSProp
 
+### Doggo vs catto
+
+Learning curve evaluation            |  Model prediction on test data
+:-------------------------:|:-------------------------:
+![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/learning_curve.jpg)  |  ![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/test.jpg)
+
 ### VGG
 
 Mostly for image recognition (VGG16 - 16 layers with weights). Base paper: [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556). This network competes with ResNet which is arguably considered better because it uses skip connections and inceptions to reduce long training time.
@@ -37,8 +43,6 @@ from tensorflow.keras.layers import MaxPooling2D  # one of the consistent config
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 ```
-![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)
-![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(2).png)
 
 Structure           |  Configurations
 :-------------------------:|:-------------------------:
@@ -56,8 +60,3 @@ Structure           |  Configurations
     - mini-batches to avoid vanishing gradient
     - dropout regularization in training
 
-## Doggo vs catto
-
-Learning curve evaluation            |  Model prediction on test data
-:-------------------------:|:-------------------------:
-![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/learning_curve.jpg)  |  ![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/test.jpg)
