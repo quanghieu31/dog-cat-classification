@@ -1,6 +1,6 @@
 ## Practice coding a machine learning problem
 
-- Dog/cat classification (data from [kaggle](https://www.kaggle.com/c/dogs-vs-cats)
+- Dog/cat classification (data from [kaggle](https://www.kaggle.com/c/dogs-vs-cats))
 - Algorithm: Convulational neural network, VGG-16
 - Optimizer: Adam 
 	- A high-dimension, first-order SGD → help with noisy objectives like dropout regularization (during training, remove random elements during each epoch to improve learning and increase accuracy)
@@ -39,6 +39,11 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 ```
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)
 ![Structure](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(2).png)
+
+Structure           |  Configurations
+:-------------------------:|:-------------------------:
+![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(1).png)  |  ![](https://github.com/quanghieu31/dogcatclassification/blob/main/images/Untitled%20(2).png)
+
 
 ### free notes:
 
