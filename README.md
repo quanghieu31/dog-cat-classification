@@ -1,8 +1,8 @@
 ## Practice coding a machine learning problem
 
-Dog/cat classification
-Algorithm: Convulational neural network, VGG-16
-Optimizer: Adam
+- Dog/cat classification
+- Algorithm: Convulational neural network, VGG-16
+- Optimizer: Adam
 
 ### VGG
 
