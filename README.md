@@ -22,14 +22,12 @@ from tensorflow.keras import Sequential
 
 from tensorflow.keras.layers import Dense   # dense = fully connected layers
 from tensorflow.keras.layers import Flatten # flatten layer reduce to single 1D vector
-																									# as an input for a dense layer
-from tensorflow.keras.layers import Dropout  # for training: dropout regularization in 															# two of the fully connected layers																# to avoid overfitting: during each training
-																									# cycle, a random fraction of the dense layer
-																									# nodes turned off => random remove elements
-																									# to make the training harder!
+					    # as an input for a dense layer
+from tensorflow.keras.layers import Dropout  # for training: dropout regularization in 															# two of the fully connected layers																# to avoid overfitting: during each trainin															# cycle, a random fraction of the dense layer
+					# nodes turned off => random remove elements
+					# to make the training harder!
 from tensorflow.keras.layers import Conv2D   # number of layers? convolutional layers?
-from tensorflow.keras.layers import MaxPooling2D  # one of the consistent config
-																								# reduce dimension of the feature map
+from tensorflow.keras.layers import MaxPooling2D  # one of the consistent config																# reduce dimension of the feature map
 
 from tensorflow.keras.optimizers import Adam
 
