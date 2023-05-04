@@ -1,6 +1,6 @@
 ## Practice VGG modeling with Adam optimizer
 
-- Dog/cat classification (data from [kaggle](https://www.kaggle.com/c/dogs-vs-cats))
+- Problem: Dog/cat classification (data from [kaggle](https://www.kaggle.com/c/dogs-vs-cats))
 - Algorithm: Convulational neural network, VGG-16
 - Optimizer: Adam 
 	- A high-dimension, first-order SGD → help with noisy objectives like dropout regularization (during training, remove random elements during each epoch to improve learning and increase accuracy)
