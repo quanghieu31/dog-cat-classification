@@ -60,4 +60,4 @@ Structure           |  Configurations
     - mini-batches to avoid vanishing gradient
     - dropout regularization in training
 
-This was a weekend project. Any feedback is more than welcomed, and some photos of cats or dogs would be even better.
+This was a weekend project. Any feedback is more than welcomed, and some photos of cats or dogs would be even better. A demo user-friendly google colab [here](https://colab.research.google.com/drive/1xv4366k_AAW9Qvrv9tiF5YiHKvCRB6jw?usp=sharing). 
