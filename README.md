@@ -60,4 +60,4 @@ Structure           |  Configurations
     - mini-batches to avoid vanishing gradient
     - dropout regularization in training
 
-This was a weekend project. Any feedback is more than welcomed, and some photos of cats or dogs would be even better. A demo user-friendly google colab [here](https://colab.research.google.com/drive/1xv4366k_AAW9Qvrv9tiF5YiHKvCRB6jw?usp=sharing). 
+I have self-taught statistics, linear algebra, Python programming for this particular project. It was a fun experience. Any feedback is welcomed. A demo google colab with user-inferface is [here](https://colab.research.google.com/drive/1xv4366k_AAW9Qvrv9tiF5YiHKvCRB6jw?usp=sharing) and you can upload your own photo and let the model predict it.
